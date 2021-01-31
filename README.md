@@ -23,9 +23,9 @@
   <img alt="TechQuiz" src="public/techq.png" width="100%">
 </p>
 
-<p align="center">
-    [![TechQuiz](http://img.youtube.com/vi/ssGIy7p5Qx0/0.jpg)](https://youtu.be/ssGIy7p5Qx0 "TechQuiz")
-</p>
+
+[![TechQuiz](http://img.youtube.com/vi/ssGIy7p5Qx0/0.jpg)](https://youtu.be/ssGIy7p5Qx0 "TechQuiz")
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
