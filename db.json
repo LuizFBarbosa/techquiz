@@ -4,9 +4,9 @@
     "description": "Teste os seus conhecimentos sobre Tecnologia em geral",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Qual foi o precursor do iPad",
-        "description": "Essa é pra aquecer",
+        "image": "https://i0.wp.com/macmagazine.com.br/wp-content/uploads/2019/04/10-apple-walt-1-resized.jpg?ssl=1",
+        "title": "Qual destes foi o precursor do iPad?",
+        "description": "Essa é pra aquecer.",
         "answer": 2,
         "alternatives": [
           "Palm Pilot",
@@ -16,19 +16,129 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://miro.medium.com/max/700/1*vHHBwcUFUaHWXntSnqKdCA.png",
+        "title": "Segundo a documentação do React, os hookspodem ser chamados:",
+        "description": "Agora a coisa ficou feia...",
+        "answer": 3,
+        "alternatives": [
+        "Dentro de Class Components diretamente",
+        "Dentro de laços",
+        "Dentro de ifs",
+        "Dentro de function components"
+        ]
+      },
+      {
+        "image": "https://img.quizur.com/f/img5c840caa766b83.68840007.jpg",
+        "title": "Steve foi demitido da Apple em 1985. Qual o nome da outra empresa que ele criou, que logo foi comprada pela própria Apple?",
+        "description": "Como assim?",
+        "answer": 3,
+        "alternatives": [
+        "Microsoft",
+        "Disney",
+        "Pixar",
+        "NeXT",
+        "Atari"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4b561d9d-dca0-4d87-8518-477f3e7b980d/43c18f62-b5d4-401a-b1e8-d62d52bfbecd.jpg",
+        "title": "Qual destes passwords foi o mais usado na internet?",
+        "description": "Segurança é tudo.",
+        "answer": 4,
+        "alternatives": [
+        "a1b2c3",
+        "homer",
+        "98765",
+        "janedoe",
+        "123456"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4b561d9d-dca0-4d87-8518-477f3e7b980d/d5dc3ff7-72b0-4210-b78b-b1219e9f486b.jpg",
+        "title": "Quantos bits tem 1 kbyte?",
+        "description": "Será que só nerd sabe?",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+        "8192",
+        "1024",
+        "512000",
+        "8000",
+        "1048576"
+        ]
+      },
+      {
+        "image": "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_auto:good,f_auto,fl_lossy,w_640,c_limit,dpr_1/cdn/4b561d9d-dca0-4d87-8518-477f3e7b980d/747c9fd9-6b7f-4409-9e04-44bf280e76eb.jpg",
+        "title": "Qual a resolução de uma imagem 4K?",
+        "description": "Agora te peguei.",
+        "answer": 2,
+        "alternatives": [
+        "2560 x 1440",
+        "7680 x 4320",
+        "3840 x 2160",
+        "1920 x 1080",
+        "2048 x 1080"
+        ]
+      },
+      {
+        "image": "https://computadorcomwindows.files.wordpress.com/2017/06/060917_2347_osvrusquefi2.png?w=736",
+        "title": "O virus I love you que infectou mais de 50 milhões de computadores em maio de 2000, foi feito em qual linguagem?",
+        "description": "Casou bilhões em prejuízos.",
+        "answer": 3,
+        "alternatives": [
+        "VB",
+        "JavaScript",	
+        "C",
+        "VBScript",
+        "Java"
+        ]
+      },
+      {
+        "image": "https://static.quizur.com/i/b/5b1c64f994ff33.162849338379076900-dcd4771f8d-k-1.jpg",
+        "title": "Qual destes jogos foi o primeiro?",
+        "description": "Só fanáticos por jogos...",
+        "answer": 4,
+        "alternatives": [
+        "Space Wars",
+        "Pong",	
+        "Snake",
+        "Tetris",
+        "Tennis For Two"
+        ]
+      },
+      {
+        "image": "https://img.quizur.com/f/img5d6dac606413b3.78884358.png?lastEdited=1567469349",
+        "title": "Qual foi a primeira rede social da história?",
+        "description": "Agora quero ver...",
+        "answer": 3,
+        "alternatives": [
+        "Six Degrees",
+        "Friendster ",	
+        "Facebook",
+        "ClassMates",
+        "MySpace",
+        "Orkut"
+        ]
+      },
+      {
+        "image": "https://cdn.pixabay.com/photo/2014/05/03/00/46/notebook-336634_960_720.jpg",
+        "title": "Quem foi o inventor da linguagem Visual Basic?",
+        "description": "",
+        "answer": 2,
+        "alternatives": [
+        "Ada Lovelace",
+        "Herman Hollerith",	
+        "Alan Cooper",
+        "Dennis Ritchie",
+        "Guido van Rossum",
+        "James Gosling"
         ]
       }
     ],
     "external": [
         "https://aluraquiz-css.omariosouto.vercel.app/",
-        "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+        "https://aluraquiz-devsoutinho.omariosouto.vercel.app/",
+        "https://lotr-quiz.filipe1309.vercel.app/",
+        "https://aluraquiz-coffee.leonardot07.vercel.app/"
     ],
     "theme": {
       "colors": {

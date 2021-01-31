@@ -2,7 +2,6 @@
 import React from 'react';
 import { Lottie } from '@crello/react-lottie';
 import { useRouter } from 'next/router';
-// import db from '../../../db.json';
 import Widget from '../../components/Widget';
 import QuizLogo from '../../components/QuizLogo';
 import QuizBackground from '../../components/QuizBackground';
@@ -10,11 +9,12 @@ import QuizContainer from '../../components/QuizContainer';
 import AlternativesForm from '../../components/AlternativesForm';
 import Button from '../../components/Button';
 import BackLinkArrow from '../../components/BackLinkArrow';
-
 import loadingAnimation from './animations/loading.json';
 
-function ResultWidget({ results }) {
+function ResultWidget(props) {
+  const { results, player } = props;
   const router = useRouter();
+
   return (
     <Widget>
       <Widget.Header>
@@ -23,35 +23,32 @@ function ResultWidget({ results }) {
 
       <Widget.Content>
         <p>
-          Você acertou
+          {player}
           {' '}
-          {/* {results.reduce((somatoriaAtual, resultAtual) => {
-            const isAcerto = resultAtual === true;
-            if (isAcerto) {
-              return somatoriaAtual + 1;
-            }
-            return somatoriaAtual;
-          }, 0)} */}
+          você acertou
+          {' '}
+          { }
           {results.filter((x) => x).length}
           {' '}
           perguntas
         </p>
         <ul>
           {results.map((result, index) => (
+            // eslint-disable-next-line react/no-array-index-key
             <li key={`result__${index}`}>
               #
               {index + 1}
               {' '}
               Resultado:
               {result === true
-                ? 'Acertou'
-                : 'Errou'}
+                ? ' Acertou'
+                : ' Errou'}
             </li>
           ))}
         </ul>
         <Button type="button" onClick={() => router.push('/')}>
-						Jogar novamente
-				</Button>
+          Jogar novamente
+        </Button>
       </Widget.Content>
     </Widget>
   );
@@ -151,14 +148,12 @@ function QuestionWidget({
             );
           })}
 
-          {/* <pre>
-            {JSON.stringify(question, null, 4)}
-          </pre> */}
+          {}
           <Button type="submit" disabled={!hasAlternativeSelected}>
             Confirmar
           </Button>
-          {isQuestionSubmited && isCorrect && <p>Você acertou!</p>}
-          {isQuestionSubmited && !isCorrect && <p>Você errou!</p>}
+          {isQuestionSubmited && isCorrect && <p> Você acertou!</p>}
+          {isQuestionSubmited && !isCorrect && <p> Você errou!</p>}
         </AlternativesForm>
       </Widget.Content>
     </Widget>
@@ -178,25 +173,21 @@ export default function QuizPage({ externalQuestions, externalBg }) {
   const question = externalQuestions[questionIndex];
   const totalQuestions = externalQuestions.length;
   const bg = externalBg;
+  const router = useRouter();
+  const name = router.asPath.replace('/quiz?', '');
+  const player = decodeURI(name);
 
   function addResult(result) {
-    // results.push(result);
     setResults([
       ...results,
       result,
     ]);
   }
 
-  // [React chama de: Efeitos || Effects]
-  // React.useEffect
-  // atualizado === willUpdate
-  // morre === willUnmount
   React.useEffect(() => {
-    // fetch() ...
     setTimeout(() => {
       setScreenState(screenStates.QUIZ);
     }, 1 * 2000);
-  // nasce === didMount
   }, []);
 
   function handleSubmitQuiz() {
@@ -224,7 +215,7 @@ export default function QuizPage({ externalQuestions, externalBg }) {
 
         {screenState === screenStates.LOADING && <LoadingWidget />}
 
-        {screenState === screenStates.RESULT && <ResultWidget results={results} />}
+        {screenState === screenStates.RESULT && <ResultWidget results={results} player={player} />}
       </QuizContainer>
     </QuizBackground>
   );
