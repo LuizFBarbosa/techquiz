@@ -20,11 +20,11 @@
 <br>
 
 <p align="center">
-  <img alt="Happy" src="public/techq.png" width="100%">
+  <img alt="TechQuiz" src="public/techq.png" width="100%">
 </p>
 
 
-[![TechQuiz](http://img.youtube.com/vi/uOwtB2UXkME/0.jpg)](https://youtu.be/ssGIy7p5Qx0 "TechQuiz")
+[![TechQuiz](http://img.youtube.com/vi/ssGIy7p5Qx0/0.jpg)](https://youtu.be/ssGIy7p5Qx0 "TechQuiz")
 
 ## 🚀 Tecnologias
 
@@ -34,12 +34,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 -   [Styled Components](https://styled-components.com)
 -   [Vercel](https://vercel.com)
 -   [Framer-Motion] (https://www.framer.com/motion/)
-
-
-## :rocket: Executando o projeto
-
-```bash
-npm run dev
 
 
 ## 💻 Projeto
@@ -62,6 +56,8 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 [Link de acesso :dizzy:](https://techquiz.luizfbarbosa.vercel.app/)
 
----
 
-Feito com 💛️ por Luiz Fernando 
+## :rocket: Executando o projeto
+
+```bash
+npm run dev
