@@ -23,9 +23,9 @@
   <img alt="TechQuiz" src="public/techq.png" width="100%">
 </p>
 
-
-[![TechQuiz](http://img.youtube.com/vi/ssGIy7p5Qx0/0.jpg)](https://youtu.be/ssGIy7p5Qx0 "TechQuiz")
-
+<p align="center">
+    [![TechQuiz](http://img.youtube.com/vi/ssGIy7p5Qx0/0.jpg)](https://youtu.be/ssGIy7p5Qx0 "TechQuiz")
+</p>
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -54,7 +54,7 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ## :computer: Produção
 
-[Link de acesso :dizzy:](https://techquiz.luizfbarbosa.vercel.app/)
+[Link de acesso :dizzy:](https://techquiz.luizfbarbosa.vercel.app/) https://techquiz.luizfbarbosa.vercel.app/
 
 
 ## :rocket: Executando o projeto
