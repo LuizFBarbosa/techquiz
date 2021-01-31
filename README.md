@@ -7,7 +7,8 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#produção">Produção</a>
+  <a href="#-Melhorias">Melhorias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-produção">Produção</a>
   
 </p>
 
@@ -50,6 +51,14 @@ No link abaixo você encontra o layout do projeto web. Lembrando que você preci
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+## :memo: Melhorias
+
+- Utilizar banco de dados
+- Criar cadastro de perguntas e respostas
+- Criar vários tipos de quiz
+- Adcionar som de acerto e erro
+- Criar score dos usuários 
 
 
 ## :computer: Produção
